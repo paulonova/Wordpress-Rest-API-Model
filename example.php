@@ -4,7 +4,7 @@
         //WordPress REST API
 
               $url = "http://www.pharma-industry.se/wp-json/wp/v2/posts?_embed";
-              $url_cat = "http://www.pharma-industry.se/wp-json/wp/v2/posts?categories=5";
+              $url_cat = "http://www.pharma-industry.se/wp-json/wp/v2/posts?categories=5&per_page=9";
 
               $response = wp_remote_get($url_cat);
 
